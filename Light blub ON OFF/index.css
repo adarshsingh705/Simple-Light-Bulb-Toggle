@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #095256;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #5aaa95;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  border: 5px solid white;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+#blub {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+img {
+  margin-top: 50px;
+  background-color: #5aaa95;
+  height: 550px;
+  width: 350px;
+  padding: 50px;
+  border: 10px solid #c1f1f6;
+  border-style: dashed solid;
+  border-radius: 50px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: #BB9F06;
+    box-shadow: none;
+    border: 3px solid #86A873;
+    border-radius: 10px;
+    font-weight: 900;
+    align-self: center;
+    
+    /* Center the button horizontally */
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Center the button vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
